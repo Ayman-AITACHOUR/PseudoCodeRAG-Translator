@@ -9,7 +9,6 @@ This project implements a Proof-of-Concept (PoC) for Python-to-Java code transla
 
 The application is publicly available at:
 ```
-
 https://huggingface.co/spaces/Ait-Achour/PseudoCodeRAG-Translator
 ```
 
@@ -22,7 +21,6 @@ No installation is required to test the system.
 ### 1. Clone the repository
 
 ```
-
 git clone https://github.com/Ayman-AITACHOUR/PseudoCodeRAG-Translator.git  
 cd PseudoCodeRAG-Translator/Milestone\ 2/code
 ```
