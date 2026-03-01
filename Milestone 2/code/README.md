@@ -8,8 +8,10 @@ This project implements a Proof-of-Concept (PoC) for Python-to-Java code transla
 ## Live Deployment
 
 The application is publicly available at:
+```
 
 https://huggingface.co/spaces/Ait-Achour/PseudoCodeRAG-Translator
+```
 
 No installation is required to test the system.
 
@@ -19,14 +21,19 @@ No installation is required to test the system.
 
 ### 1. Clone the repository
 
+```
+
 git clone https://github.com/Ayman-AITACHOUR/PseudoCodeRAG-Translator.git  
 cd PseudoCodeRAG-Translator/Milestone\ 2/code
+```
 
 ---
 
 ### 2. Install dependencies
 
+```
 pip install -r requirements.txt
+```
 
 ---
 
@@ -34,7 +41,9 @@ pip install -r requirements.txt
 
 Create a `.env` file inside the `code` directory:
 
+```
 GEMINI_API_KEY=your_api_key_here
+```
 
 The application loads the API key from environment variables.
 
@@ -42,10 +51,12 @@ The application loads the API key from environment variables.
 
 ### 4. Run the application
 
+```
 streamlit run src/streamlit_app.py
-
+```
 Then open:
-
+```
 http://localhost:8501
+```
 
 ---
