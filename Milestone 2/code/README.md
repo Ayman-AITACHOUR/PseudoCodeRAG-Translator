@@ -7,7 +7,7 @@ This project implements a Proof-of-Concept (PoC) for Python-to-Java code transla
 
 The overall workflow of the application is illustrated below:
 
-![Workflow](../Work Flow.png)
+![workflow](.././Work Flow.png)
 
 The process follows these steps:
 
