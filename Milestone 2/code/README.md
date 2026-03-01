@@ -2,6 +2,21 @@
 # Python → Java Translator – Milestone 2 (Proof of Concept)
 
 This project implements a Proof-of-Concept (PoC) for Python-to-Java code translation using Gemini 3 Flash integrated via API and deployed using Streamlit on HuggingFace Spaces.
+---
+
+##  System Workflow
+
+The overall workflow of the application is illustrated below:
+
+![Workflow](./Work Flow.png)
+
+The process follows these steps:
+
+1. User inputs Python code in the Streamlit interface.
+2. The system constructs a structured translation prompt.
+3. The prompt is sent to Gemini 3 Flash via API.
+4. The model generates equivalent Java code.
+5. The translated Java code is displayed in the UI.
 
 ---
 
